@@ -125,6 +125,7 @@ int main (int argc, char const * const * argv)
     if (opts.help)
     {
         printf("bin_to_hex [OPTS]\n"
+               "Synopsis: converts input data to hex
                "Options:\n"
                " -h     this help\n"
                " -w[N]  outputs a newline after each N[=10] bytes or at the end\n"
